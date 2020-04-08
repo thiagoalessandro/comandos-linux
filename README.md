@@ -10,7 +10,7 @@ watch -n 5 "wget --user ${user} --password ${password} -qO-  https://${host} | g
 create user app with password 'app@070335';
 GRANT ALL PRIVILEGES on SCHEMA public to app;
 ```
-## S3
+## AWS S3
 
 Sincroniza
 ```
